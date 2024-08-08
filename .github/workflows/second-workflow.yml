@@ -1,10 +1,8 @@
-name: second_work_flow
+name: second_workflow
 on: workflow_dispatch
 jobs:
-  first-job:
-   runs-on: ubuntu-latest
-   steps:
-     - name: Hello World
-       run: | 
-              echo "Hello World"
-              echo "Bye World"
+  first_job:
+    runs_on: ubuntu-latest
+    steps:
+      - name: run hello world
+        run: echo "Hello World"

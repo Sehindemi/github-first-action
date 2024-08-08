@@ -1,7 +1,7 @@
-name: second work flow
+name: second_work_flow
 on: workflow_dispatch
 jobs:
-  first job:
+  first-job:
    runs-on: ubuntu-latest
    steps:
      - name: Hello World

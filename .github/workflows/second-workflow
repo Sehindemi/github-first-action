@@ -1,7 +1,9 @@
-name: second work flow 
+name: second work flow
 on: workflow_dispatch
-runs: ubuntu-latest
 jobs:
   name: first job
-  run: | echo "Sehindemi is my name"
-         echo "Ajayi is my surname"
+   runs-on: ubuntu-latest
+   steps:
+     - name: Hello World
+       run: | echo "Hello World"
+              echo "Bye World"
